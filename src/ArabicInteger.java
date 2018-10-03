@@ -35,17 +35,13 @@ public class ArabicInteger {
         else if(integer == 14) {
             return NumeralFor10 + NumeralFor1 + NumeralFor5;
         }
-        else if(integer == 15) {
-            return NumeralFor10 + NumeralFor5;
-        }
-        else if(integer == 16) {
-            return NumeralFor10 + NumeralFor5 + NumeralFor1;
-        }
-        else if(integer == 17) {
-            return NumeralFor10 + NumeralFor5 + NumeralFor1 + NumeralFor1;
+        else if(integer < 19) {
+            int numberOfIsToAdd = integer - 15;
+            String baseNumeral = NumeralFor10 + NumeralFor5;
+            return appendNumeralFor1To(baseNumeral, numberOfIsToAdd);
         }
         else {
-            return NumeralFor10 + NumeralFor5 + NumeralFor1 + NumeralFor1 + NumeralFor1;
+            return NumeralFor10 + NumeralFor1 + NumeralFor10;
         }
     }
 
