@@ -9,9 +9,8 @@ public class ArabicInteger {
 
     public String toRomanNumeral() {
         if(integer < 4) {
-           String baseNumeral = "";
             int numberOf1sToAppend = this.integer;
-            return appendNumeralFor1To(baseNumeral, numberOf1sToAppend);
+            return appendNumeralFor1To("", numberOf1sToAppend);
         }
         else if(integer == 4) {
             return "IV";
