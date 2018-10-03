@@ -30,9 +30,8 @@ public class ArabicInteger {
             return NumeralFor10;
         }
         else if(integer < 14) {
-            String baseNumeral = NumeralFor10;
             int numberOfIsToAdd = integer - 10;
-            return appendNumeralFor1To(baseNumeral, numberOfIsToAdd);
+            return appendNumeralFor1To(NumeralFor10, numberOfIsToAdd);
         }
         else {
             return "XIV";
