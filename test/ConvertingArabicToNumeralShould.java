@@ -1,7 +1,11 @@
+import junitparams.JUnitParamsRunner;
+import junitparams.Parameters;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
 import static org.junit.Assert.assertEquals;
 
+@RunWith(JUnitParamsRunner.class)
 public class ConvertingArabicToNumeralShould {
     
     /*
@@ -127,6 +131,25 @@ public class ConvertingArabicToNumeralShould {
     @Test
     public void convert_50_to_L() {
         assertCorrectConversion(50, "L");
+    }
+
+    @Test
+    @Parameters({
+            "50, L",
+            "51, LI",
+            "52, LII",
+            "53, LIII",
+            "54, LIV",
+            "55, LV",
+            "56, LVI",
+            "57, LVII",
+            "58, LVIII",
+            "58, LVIII",
+            "59, LIX",
+            "60, LX",
+    })
+    public void convert_numbers_50_to_60_correctly(int arabicInt, String expectedNumeral) {
+        assertCorrectConversion(arabicInt, expectedNumeral);
     }
 
     private void assertCorrectConversion(int arabicInteger, String romanNumeral) {
