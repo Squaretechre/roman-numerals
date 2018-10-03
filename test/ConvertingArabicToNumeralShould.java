@@ -40,6 +40,6 @@ public class ConvertingArabicToNumeralShould {
     }
 
     private void assertCorrectConversion(int arabicInteger, String romanNumeral) {
-        assertEquals(new ArabicInteger(arabicInteger).toRomanNumeral(),  romanNumeral);
+        assertEquals(romanNumeral, new ArabicInteger(arabicInteger).toRomanNumeral());
     }
 }
