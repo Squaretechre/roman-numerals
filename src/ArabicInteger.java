@@ -22,8 +22,11 @@ public class ArabicInteger {
         else if(integer == 7) {
             return "VII";
         }
-        else {
+        else if(integer == 8) {
             return "VIII";
+        }
+        else {
+            return "IX";
         }
     }
 }
