@@ -32,8 +32,11 @@ public class ArabicInteger {
             int numberOfIsToAdd = integer - 10;
             return appendNumeralFor1To(NumeralFor10, numberOfIsToAdd);
         }
-        else {
+        else if(integer == 14) {
             return NumeralFor10 + NumeralFor1 + NumeralFor5;
+        }
+        else {
+            return NumeralFor10 + NumeralFor5;
         }
     }
 
