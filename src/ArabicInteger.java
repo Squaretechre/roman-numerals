@@ -24,10 +24,10 @@ public class ArabicInteger {
         }
     }
 
-    private String appendNumeralFor1To(String numeral, int numberOfIsToAdd) {
+    private String appendNumeralFor1To(String baseNumeral, int numberOfIsToAdd) {
         for(int i = 0; i < numberOfIsToAdd; i++) {
-           numeral += "I";
+           baseNumeral += "I";
        }
-        return numeral;
+        return baseNumeral;
     }
 }
