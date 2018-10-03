@@ -157,6 +157,23 @@ public class ConvertingArabicToNumeralShould {
         assertCorrectConversion(89, "LXXXIX");
     }
 
+    @Test
+    @Parameters({
+            "90, XC",
+            "91, XCI",
+            "92, XCII",
+            "93, XCIII",
+            "94, XCIV",
+            "95, XCV",
+            "96, XCVI",
+            "97, XCVII",
+            "98, XCVIII",
+            "99, XCIX",
+    })
+    public void convert_numbers_90_to_99_correctly(int arabicInt, String expectedNumeral) {
+        assertCorrectConversion(arabicInt, expectedNumeral);
+    }
+
     private void assertCorrectConversion(int arabicInteger, String romanNumeral) {
         assertEquals(romanNumeral, new ArabicInteger(arabicInteger).toRomanNumeral());
     }

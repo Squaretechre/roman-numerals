@@ -14,6 +14,10 @@ public class ArabicInteger {
         int decreasingNumber = this.integer;
 
         while (decreasingNumber > 0) {
+            if (decreasingNumber >= 90) {
+                decreasingNumber -= 90;
+                numeralString += "XC";
+            }
             if (decreasingNumber >= 50) {
                 decreasingNumber -= 50;
                 numeralString += NumeralFor50;
