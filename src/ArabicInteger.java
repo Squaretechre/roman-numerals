@@ -35,7 +35,7 @@ public class ArabicInteger {
             return appendNumeralFor1To(NumeralFor10, numberOfIsToAdd);
         }
         else {
-            return "XIV";
+            return NumeralFor10 + NumeralFor4;
         }
     }
 
