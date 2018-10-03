@@ -29,14 +29,10 @@ public class ArabicInteger {
         else if(integer == 10) {
             return "X";
         }
-        else if(integer == 11) {
-            return "XI";
-        }
-        else if(integer == 12) {
-            return "XII";
-        }
-        else if(integer == 13) {
-            return "XIII";
+        else if(integer < 14) {
+            String baseNumeral = "X";
+            int numberOfIsToAdd = integer - 10;
+            return appendNumeralFor1To(baseNumeral, numberOfIsToAdd);
         }
         else {
             return "XIV";
