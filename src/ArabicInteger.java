@@ -16,14 +16,12 @@ public class ArabicInteger {
         else if(integer == 5) {
             return "V";
         }
-        else if(integer == 6) {
-            return "VI";
-        }
-        else if(integer == 7) {
-            return "VII";
-        }
-        else if(integer == 8) {
-            return "VIII";
+        else if(integer > 5 && integer < 9) {
+            String numeralIs = "V";
+            for(int i=0; i < integer - 5; i++) {
+                numeralIs += "I";
+            }
+            return numeralIs;
         }
         else {
             return "IX";
