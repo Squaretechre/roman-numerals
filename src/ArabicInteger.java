@@ -3,7 +3,7 @@ public class ArabicInteger {
     private static final String NumeralFor5 = "V";
     private static final String NumeralFor10 = "X";
     private static final String NumeralFor50 = "L";
-    public static final String NumeralFor100 = "C";
+    private static final String NumeralFor100 = "C";
     private final int integer;
 
     public ArabicInteger(int integer) {
@@ -15,9 +15,12 @@ public class ArabicInteger {
         int decreasingNumber = this.integer;
 
         while (decreasingNumber > 0) {
-            if (decreasingNumber >= 100) {
-                decreasingNumber -= 100;
-                numeralString += NumeralFor100;
+            int currentNumberLookingAt = decreasingNumber;
+            int someBoundary = 100;
+            if (currentNumberLookingAt >= someBoundary) {
+                String theNumeralForThatBoundary = NumeralFor100;
+                decreasingNumber -= someBoundary;
+                numeralString +=  theNumeralForThatBoundary;
             }
             if (decreasingNumber >= 90) {
                 decreasingNumber -= 90;
