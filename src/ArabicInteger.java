@@ -38,8 +38,11 @@ public class ArabicInteger {
         else if(integer == 15) {
             return NumeralFor10 + NumeralFor5;
         }
-        else {
+        else if(integer == 16) {
             return NumeralFor10 + NumeralFor5 + NumeralFor1;
+        }
+        else {
+            return NumeralFor10 + NumeralFor5 + NumeralFor1 + NumeralFor1;
         }
     }
 
