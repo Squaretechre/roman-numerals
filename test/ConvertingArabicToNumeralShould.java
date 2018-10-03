@@ -109,6 +109,11 @@ public class ConvertingArabicToNumeralShould {
         assertCorrectConversion(19, "XIX");
     }
 
+    @Test
+    public void convert_39_to_XXXIX() {
+        assertCorrectConversion(39, "XXXIX");
+    }
+
     private void assertCorrectConversion(int arabicInteger, String romanNumeral) {
         assertEquals(romanNumeral, new ArabicInteger(arabicInteger).toRomanNumeral());
     }
