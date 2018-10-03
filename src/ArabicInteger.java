@@ -1,9 +1,9 @@
 public class ArabicInteger {
     private static final String NumeralFor1 = "I";
     private static final String NumeralFor5 = "V";
-    public static final String NumeralFor10 = "X";
-    public static final String NumeralFor4 = "IV";
-    public static final String NumeralFor9 = "IX";
+    private static final String NumeralFor10 = "X";
+    private static final String NumeralFor4 = "IV";
+    private static final String NumeralFor9 = "IX";
     private final int integer;
 
     public ArabicInteger(int integer) {
