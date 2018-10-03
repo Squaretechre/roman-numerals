@@ -12,6 +12,9 @@ public class ArabicInteger {
         else if(integer == 3) {
             return "III";
         }
+        else  if(integer == 4) {
+            return "IIII";
+        }
         return "I";
     }
 }

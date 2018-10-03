@@ -29,6 +29,11 @@ public class ConvertingArabicToNumeralShould {
         assertCorrectConversion(3, "III");
     }
 
+    @Test
+    public void convert_4_to_IIII() {
+        assertCorrectConversion(4, "IIII");
+    }
+
     private void assertCorrectConversion(int arabicInteger, String romanNumeral) {
         assertEquals(new ArabicInteger(arabicInteger).toRomanNumeral(),  romanNumeral);
     }
