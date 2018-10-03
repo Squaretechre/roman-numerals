@@ -1,13 +1,7 @@
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class ArabicInteger {
-    private static final String NumeralFor1 = "I";
-    private static final String NumeralFor5 = "V";
-    private static final String NumeralFor10 = "X";
-    private static final String NumeralFor50 = "L";
-    private static final String NumeralFor100 = "C";
     private final int integer;
     private final Map<Integer, String> numerals;
 
