@@ -32,8 +32,11 @@ public class ArabicInteger {
         else if(integer == 11) {
             return "XI";
         }
-        else {
+        else if(integer == 12) {
             return "XII";
+        }
+        else {
+            return "XIII";
         }
     }
 
