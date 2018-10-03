@@ -2,6 +2,7 @@ public class ArabicInteger {
     private static final String NumeralFor1 = "I";
     private static final String NumeralFor5 = "V";
     private static final String NumeralFor10 = "X";
+    public static final String NumeralFor50 = "L";
     private final int integer;
 
     public ArabicInteger(int integer) {
@@ -15,11 +16,11 @@ public class ArabicInteger {
         while (decreasingNumber > 0) {
             if (decreasingNumber >= 50) {
                 decreasingNumber -= 50;
-                numeralString += "L";
+                numeralString += NumeralFor50;
             }
             if (decreasingNumber >= 40) {
                 decreasingNumber -= 40;
-                numeralString += "XL";
+                numeralString += NumeralFor10 + NumeralFor50;
             }
             if (decreasingNumber >= 10) {
                 decreasingNumber -= 10;

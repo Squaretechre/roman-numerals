@@ -20,8 +20,8 @@
       <file leaf-file-name="ConvertingArabicToNumeralShould.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="118" selection-start-line="118" selection-end-line="118" />
+            <state relative-caret-position="627">
+              <caret line="128" column="37" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#292#293#0" expanded="true" />
@@ -64,7 +64,12 @@
                 <element signature="e#2107#2108#0" expanded="true" />
                 <element signature="e#2134#2135#0" expanded="true" />
                 <element signature="e#2184#2185#0" expanded="true" />
+                <element signature="e#2257#2258#0" expanded="true" />
                 <element signature="e#2309#2310#0" expanded="true" />
+                <element signature="e#2351#2352#0" expanded="true" />
+                <element signature="e#2400#2401#0" expanded="true" />
+                <element signature="e#2454#2455#0" expanded="true" />
+                <element signature="e#2505#2506#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +78,8 @@
       <file leaf-file-name="ArabicInteger.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ArabicInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="363">
+              <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
               <folding>
                 <element signature="e#280#281#0" expanded="true" />
                 <element signature="e#318#319#0" expanded="true" />
@@ -300,35 +305,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_tests - 2018.10.03 at 21h 49m 37s.xml">
-      <configuration name="All tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 21h 51m 24s.xml">
-      <configuration name="All tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 21h 51m 54s.xml">
-      <configuration name="All tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 21h 53m 02s.xml">
-      <configuration name="All tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 21h 53m 17s.xml">
-      <configuration name="All tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 21h 53m 41s.xml">
-      <configuration name="All tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 21h 53m 58s.xml">
-      <configuration name="All tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 21h 54m 20s.xml">
-      <configuration name="All tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConvertingArabicToNumeralShould_convert_40_to_XL - 2018.10.03 at 21h 54m 37s.xml">
-      <configuration name="ConvertingArabicToNumeralShould.convert_40_to_XL" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ConvertingArabicToNumeralShould_convert_40_to_XL - 2018.10.03 at 21h 54m 54s.xml">
       <configuration name="ConvertingArabicToNumeralShould.convert_40_to_XL" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConvertingArabicToNumeralShould_convert_40_to_XL - 2018.10.03 at 21h 55m 34s.xml">
+      <configuration name="ConvertingArabicToNumeralShould.convert_40_to_XL" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConvertingArabicToNumeralShould_convert_40_to_XL - 2018.10.03 at 21h 55m 50s.xml">
+      <configuration name="ConvertingArabicToNumeralShould.convert_40_to_XL" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConvertingArabicToNumeralShould_convert_40_to_XL - 2018.10.03 at 21h 56m 38s.xml">
+      <configuration name="ConvertingArabicToNumeralShould.convert_40_to_XL" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 21h 56m 49s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 21h 57m 09s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 21h 58m 00s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 21h 58m 35s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 21h 59m 14s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 21h 59m 35s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -343,7 +348,7 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -369,8 +374,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        <state relative-caret-position="627">
+          <caret line="128" column="37" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
@@ -413,15 +418,20 @@
             <element signature="e#2107#2108#0" expanded="true" />
             <element signature="e#2134#2135#0" expanded="true" />
             <element signature="e#2184#2185#0" expanded="true" />
+            <element signature="e#2257#2258#0" expanded="true" />
             <element signature="e#2309#2310#0" expanded="true" />
+            <element signature="e#2351#2352#0" expanded="true" />
+            <element signature="e#2400#2401#0" expanded="true" />
+            <element signature="e#2454#2455#0" expanded="true" />
+            <element signature="e#2505#2506#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArabicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="363">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
           <folding>
             <element signature="e#280#281#0" expanded="true" />
             <element signature="e#318#319#0" expanded="true" />
@@ -446,7 +456,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
