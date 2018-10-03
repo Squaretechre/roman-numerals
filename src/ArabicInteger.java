@@ -13,6 +13,10 @@ public class ArabicInteger {
         int decreasingNumber = this.integer;
 
         while (decreasingNumber > 0) {
+            if (decreasingNumber >= 50) {
+                decreasingNumber -= 50;
+                numeralString += "L";
+            }
             if (decreasingNumber >= 40) {
                 decreasingNumber -= 40;
                 numeralString += "XL";
