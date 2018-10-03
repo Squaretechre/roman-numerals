@@ -2,7 +2,7 @@ public class ArabicInteger {
     private static final String NumeralFor1 = "I";
     private static final String NumeralFor5 = "V";
     private static final String NumeralFor10 = "X";
-    public static final String NumeralFor50 = "L";
+    private static final String NumeralFor50 = "L";
     private final int integer;
 
     public ArabicInteger(int integer) {
