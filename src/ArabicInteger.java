@@ -14,7 +14,7 @@ public class ArabicInteger {
         else if(integer == 5) {
             return "V";
         }
-        else if(integer > 5 && integer < 9) {
+        else if(integer < 9) {
             String baseNumeral = "V";
             int numberOfIsToAdd = integer - 5;
             return appendNumeralFor1To(baseNumeral, numberOfIsToAdd);
