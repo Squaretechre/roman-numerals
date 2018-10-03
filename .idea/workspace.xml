@@ -50,8 +50,8 @@
       <file leaf-file-name="ArabicInteger.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ArabicInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="308">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="e#99#100#0" expanded="true" />
                 <element signature="e#137#138#0" expanded="true" />
@@ -232,12 +232,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_tests - 2018.10.03 at 20h 00m 53s.xml">
-      <configuration name="All tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 20h 01m 18s.xml">
-      <configuration name="All tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_tests - 2018.10.03 at 20h 02m 00s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
@@ -260,6 +254,12 @@
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_tests - 2018.10.03 at 20h 07m 41s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 20h 10m 17s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 20h 10m 33s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -329,8 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArabicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="308">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="e#99#100#0" expanded="true" />
             <element signature="e#137#138#0" expanded="true" />
