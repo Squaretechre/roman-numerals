@@ -34,6 +34,11 @@ public class ConvertingArabicToNumeralShould {
         assertCorrectConversion(4, "IIII");
     }
 
+    @Test
+    public void convert_5_to_V() {
+        assertCorrectConversion(5, "V");
+    }
+
     private void assertCorrectConversion(int arabicInteger, String romanNumeral) {
         assertEquals(new ArabicInteger(arabicInteger).toRomanNumeral(),  romanNumeral);
     }
