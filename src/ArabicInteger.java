@@ -11,8 +11,7 @@ public class ArabicInteger {
 
     public String toRomanNumeral() {
         if(integer < 4) {
-            int numberOf1sToAppend = this.integer;
-            return appendNumeralFor1To("", numberOf1sToAppend);
+            return appendNumeralFor1To("", integer);
         }
         else if(integer == 4) {
             return NumeralFor4;
