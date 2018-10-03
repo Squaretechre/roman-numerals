@@ -18,4 +18,9 @@ public class ConvertingArabicToNumeralShould {
     public void convert_1_to_I() {
         assertEquals(new ArabicInteger(1).toRomanNumeral(), "I");
     }
+
+    @Test
+    public void convert_2_to_II() {
+        assertEquals(new ArabicInteger(2).toRomanNumeral(), "II");
+    }
 }

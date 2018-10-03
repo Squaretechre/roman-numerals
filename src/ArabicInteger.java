@@ -6,6 +6,9 @@ public class ArabicInteger {
     }
 
     public String toRomanNumeral() {
+        if(integer == 2) {
+            return "II";
+        }
         return "I";
     }
 }
