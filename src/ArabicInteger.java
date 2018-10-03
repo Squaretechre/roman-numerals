@@ -1,6 +1,7 @@
 public class ArabicInteger {
     private static final String NumeralFor1 = "I";
     private static final String NumeralFor5 = "V";
+    public static final String NumeralFor10 = "X";
     private final int integer;
 
     public ArabicInteger(int integer) {
@@ -26,10 +27,10 @@ public class ArabicInteger {
             return "IX";
         }
         else if(integer == 10) {
-            return "X";
+            return NumeralFor10;
         }
         else if(integer < 14) {
-            String baseNumeral = "X";
+            String baseNumeral = NumeralFor10;
             int numberOfIsToAdd = integer - 10;
             return appendNumeralFor1To(baseNumeral, numberOfIsToAdd);
         }
