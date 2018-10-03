@@ -184,6 +184,11 @@ public class ConvertingArabicToNumeralShould {
         assertCorrectConversion(400, "CD");
     }
 
+    @Test
+    public void convert_500_to_D() {
+        assertCorrectConversion(500, "D");
+    }
+
     private void assertCorrectConversion(int arabicInteger, String romanNumeral) {
         assertEquals(romanNumeral, new ArabicInteger(arabicInteger).toRomanNumeral());
     }
