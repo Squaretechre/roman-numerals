@@ -7,17 +7,7 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(JUnitParamsRunner.class)
 public class ConvertingArabicToNumeralShould {
-    
-    /*
-        I = 1
-        V = 5
-        X = 10
-        L = 50
-        C = 100
-        D = 500
-        M = 1000
-     */
-    
+
     @Test
     public void convert_1_to_I() {
         assertCorrectConversion(1, "I");
@@ -200,8 +190,13 @@ public class ConvertingArabicToNumeralShould {
     }
 
     @Test
-    public void convert_2499_MMCDXCIX() {
+    public void convert_2499_to_MMCDXCIX() {
         assertCorrectConversion(2499, "MMCDXCIX");
+    }
+
+    @Test
+    public void convert_3949_to_MMMCMXLIX() {
+        assertCorrectConversion(3949, "MMMCMXLIX");
     }
 
     private void assertCorrectConversion(int arabicInteger, String romanNumeral) {
