@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java" line="47" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adb1c756-edcc-4f5d-ac9c-37c4cfa7a727" name="Default" comment="" />
+    <list default="true" id="adb1c756-edcc-4f5d-ac9c-37c4cfa7a727" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +20,8 @@
       <file leaf-file-name="ConvertingArabicToNumeralShould.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="168" column="23" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="23" />
+            <state relative-caret-position="737">
+              <caret line="198" column="38" selection-start-line="198" selection-start-column="38" selection-end-line="198" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#292#293#0" expanded="true" />
@@ -72,6 +74,14 @@
                 <element signature="e#3201#3202#0" expanded="true" />
                 <element signature="e#3699#3700#0" expanded="true" />
                 <element signature="e#3752#3753#0" expanded="true" />
+                <element signature="e#3792#3793#0" expanded="true" />
+                <element signature="e#3841#3842#0" expanded="true" />
+                <element signature="e#3892#3893#0" expanded="true" />
+                <element signature="e#3942#3943#0" expanded="true" />
+                <element signature="e#3988#3989#0" expanded="true" />
+                <element signature="e#4037#4038#0" expanded="true" />
+                <element signature="e#4088#4089#0" expanded="true" />
+                <element signature="e#4138#4139#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +90,11 @@
       <file leaf-file-name="ArabicInteger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArabicInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            <state relative-caret-position="550">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,8 +131,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ArabicNumber.java" />
-        <option value="$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java" />
         <option value="$PROJECT_DIR$/src/ArabicInteger.java" />
+        <option value="$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java" />
       </list>
     </option>
   </component>
@@ -327,24 +340,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_tests - 2018.10.03 at 22h 42m 48s.xml">
-      <configuration name="All tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConvertingArabicToNumeralShould_convert_89_to_LXXXIX - 2018.10.03 at 22h 43m 50s.xml">
-      <configuration name="ConvertingArabicToNumeralShould.convert_89_to_LXXXIX" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConvertingArabicToNumeralShould_convert_89_to_LXXXIX - 2018.10.03 at 22h 45m 07s.xml">
-      <configuration name="ConvertingArabicToNumeralShould.convert_89_to_LXXXIX" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConvertingArabicToNumeralShould_convert_89_to_LXXXIX - 2018.10.03 at 22h 45m 37s.xml">
-      <configuration name="ConvertingArabicToNumeralShould.convert_89_to_LXXXIX" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConvertingArabicToNumeralShould_convert_89_to_LXXXIX - 2018.10.03 at 22h 46m 35s.xml">
-      <configuration name="ConvertingArabicToNumeralShould.convert_89_to_LXXXIX" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConvertingArabicToNumeralShould_convert_89_to_LXXXIX - 2018.10.03 at 22h 46m 56s.xml">
-      <configuration name="ConvertingArabicToNumeralShould.convert_89_to_LXXXIX" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ConvertingArabicToNumeralShould_convert_89_to_LXXXIX - 2018.10.03 at 22h 48m 14s.xml">
       <configuration name="ConvertingArabicToNumeralShould.convert_89_to_LXXXIX" configurationId="JUnit" />
     </history-entry>
@@ -355,6 +350,24 @@
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_tests - 2018.10.03 at 22h 50m 20s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 22h 56m 24s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 22h 56m 46s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 22h 57m 47s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 22h 58m 06s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 22h 59m 03s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 22h 59m 21s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -397,15 +410,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ArabicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        <state relative-caret-position="550">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="168" column="23" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="23" />
+        <state relative-caret-position="737">
+          <caret line="198" column="38" selection-start-line="198" selection-start-column="38" selection-end-line="198" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
@@ -458,6 +474,14 @@
             <element signature="e#3201#3202#0" expanded="true" />
             <element signature="e#3699#3700#0" expanded="true" />
             <element signature="e#3752#3753#0" expanded="true" />
+            <element signature="e#3792#3793#0" expanded="true" />
+            <element signature="e#3841#3842#0" expanded="true" />
+            <element signature="e#3892#3893#0" expanded="true" />
+            <element signature="e#3942#3943#0" expanded="true" />
+            <element signature="e#3988#3989#0" expanded="true" />
+            <element signature="e#4037#4038#0" expanded="true" />
+            <element signature="e#4088#4089#0" expanded="true" />
+            <element signature="e#4138#4139#0" expanded="true" />
           </folding>
         </state>
       </provider>

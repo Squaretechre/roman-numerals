@@ -194,6 +194,16 @@ public class ConvertingArabicToNumeralShould {
         assertCorrectConversion(900, "CM");
     }
 
+    @Test
+    public void convert_1000_to_M() {
+        assertCorrectConversion(1000, "M");
+    }
+
+    @Test
+    public void convert_2499_MMCDXCIX() {
+        assertCorrectConversion(2499, "MMCDXCIX");
+    }
+
     private void assertCorrectConversion(int arabicInteger, String romanNumeral) {
         assertEquals(romanNumeral, new ArabicInteger(arabicInteger).toRomanNumeral());
     }

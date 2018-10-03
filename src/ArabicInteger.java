@@ -9,6 +9,7 @@ public class ArabicInteger {
         this.integer = integer;
         this.numerals = new LinkedHashMap<Integer, String>() {
             {
+                put(1000, "M");
                 put(900, "CM");
                 put(500, "D");
                 put(400, "CD");
