@@ -179,6 +179,11 @@ public class ConvertingArabicToNumeralShould {
         assertCorrectConversion(100, "C");
     }
 
+    @Test
+    public void convert_400_to_CD() {
+        assertCorrectConversion(400, "CD");
+    }
+
     private void assertCorrectConversion(int arabicInteger, String romanNumeral) {
         assertEquals(romanNumeral, new ArabicInteger(arabicInteger).toRomanNumeral());
     }
