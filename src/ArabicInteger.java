@@ -20,8 +20,11 @@ public class ArabicInteger {
             int numberOfIsToAdd = integer - 5;
             return appendNumeralFor1To(baseNumeral, numberOfIsToAdd);
         }
-        else {
+        else if(integer == 9) {
             return "IX";
+        }
+        else {
+            return "X";
         }
     }
 
