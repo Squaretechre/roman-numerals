@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="adb1c756-edcc-4f5d-ac9c-37c4cfa7a727" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/ArabicInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArabicInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConvertingArabicToNumeralShould.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConvertingArabicToNumeralShould.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="715">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#292#293#0" expanded="true" />
@@ -30,16 +29,18 @@
                 <element signature="e#612#613#0" expanded="true" />
                 <element signature="e#587#588#0" expanded="true" />
                 <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArabicInteger.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ArabicInteger.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ArabicInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="418">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding>
                 <element signature="e#99#100#0" expanded="true" />
                 <element signature="e#137#138#0" expanded="true" />
@@ -80,8 +81,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ArabicNumber.java" />
-        <option value="$PROJECT_DIR$/src/ArabicInteger.java" />
         <option value="$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java" />
+        <option value="$PROJECT_DIR$/src/ArabicInteger.java" />
       </list>
     </option>
   </component>
@@ -220,18 +221,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_tests - 2018.10.03 at 19h 45m 00s.xml">
-      <configuration name="All tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 19h 45m 07s.xml">
-      <configuration name="All tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 19h 45m 55s.xml">
-      <configuration name="All tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 19h 46m 07s.xml">
-      <configuration name="All tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_tests - 2018.10.03 at 19h 46m 33s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
@@ -248,6 +237,18 @@
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_tests - 2018.10.03 at 19h 50m 38s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 19h 52m 15s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 19h 52m 46s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 19h 53m 44s.xml">
+      <configuration name="All tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_tests - 2018.10.03 at 19h 53m 52s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -287,21 +288,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArabicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="715">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
@@ -312,6 +302,19 @@
             <element signature="e#612#613#0" expanded="true" />
             <element signature="e#587#588#0" expanded="true" />
             <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArabicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
           </folding>
         </state>
       </provider>

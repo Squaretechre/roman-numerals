@@ -6,18 +6,15 @@ public class ArabicInteger {
     }
 
     public String toRomanNumeral() {
-        if(integer == 2) {
-            return "II";
+        if(integer < 5) {
+           String numeralIs = "";
+           for(int i=0; i < integer; i++) {
+               numeralIs += "I";
+           }
+           return numeralIs;
         }
-        else if(integer == 3) {
-            return "III";
-        }
-        else if(integer == 4) {
-            return "IIII";
-        }
-        else if(integer == 5) {
+        else {
             return "V";
         }
-        return "I";
     }
 }
