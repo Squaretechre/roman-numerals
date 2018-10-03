@@ -1,5 +1,6 @@
 public class ArabicInteger {
     private static final String NumeralFor1 = "I";
+    private static final String NumeralFor5 = "V";
     private final int integer;
 
     public ArabicInteger(int integer) {
@@ -16,12 +17,11 @@ public class ArabicInteger {
             return "IV";
         }
         else if(integer == 5) {
-            return "V";
+            return NumeralFor5;
         }
         else if(integer < 9) {
-            String baseNumeral = "V";
             int numberOfIsToAdd = integer - 5;
-            return appendNumeralFor1To(baseNumeral, numberOfIsToAdd);
+            return appendNumeralFor1To(NumeralFor5, numberOfIsToAdd);
         }
         else if(integer == 9) {
             return "IX";
