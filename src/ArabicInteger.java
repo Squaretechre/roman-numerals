@@ -12,27 +12,28 @@ public class ArabicInteger {
         String numeralString = "";
         int decreasingNumber = this.integer;
 
-        while(decreasingNumber > 0) {
-           if(decreasingNumber >= 10) {
-               decreasingNumber -= 10;
-               numeralString += NumeralFor10;
-           }
-           else if(decreasingNumber >= 9) {
-               decreasingNumber -= 9;
-               numeralString += (NumeralFor1 + NumeralFor10);
-           }
-           else if(decreasingNumber >= 5) {
-               decreasingNumber -= 5;
-               numeralString += NumeralFor5;
-           }
-           else if(decreasingNumber >= 4) {
-               decreasingNumber -= 4;
-               numeralString += NumeralFor1 + NumeralFor5;
-           }
-           else {
-               decreasingNumber -= 1;
-               numeralString += NumeralFor1;
-           }
+        while (decreasingNumber > 0) {
+            if (decreasingNumber >= 40) {
+                decreasingNumber = 0;
+                numeralString += "XL";
+                continue;
+            }
+            if (decreasingNumber >= 10) {
+                decreasingNumber -= 10;
+                numeralString += NumeralFor10;
+            } else if (decreasingNumber >= 9) {
+                decreasingNumber -= 9;
+                numeralString += (NumeralFor1 + NumeralFor10);
+            } else if (decreasingNumber >= 5) {
+                decreasingNumber -= 5;
+                numeralString += NumeralFor5;
+            } else if (decreasingNumber >= 4) {
+                decreasingNumber -= 4;
+                numeralString += NumeralFor1 + NumeralFor5;
+            } else {
+                decreasingNumber -= 1;
+                numeralString += NumeralFor1;
+            }
         }
 
         return numeralString;
