@@ -16,16 +16,20 @@ public class ConvertingArabicToNumeralShould {
     
     @Test
     public void convert_1_to_I() {
-        assertEquals(new ArabicInteger(1).toRomanNumeral(), "I");
+        assertCorrectConversion(1, "I");
     }
 
     @Test
     public void convert_2_to_II() {
-        assertEquals(new ArabicInteger(2).toRomanNumeral(), "II");
+        assertCorrectConversion(2, "II");
     }
 
     @Test
     public void convert_3_to_III() {
-        assertEquals(new ArabicInteger(3).toRomanNumeral(), "III");
+        assertCorrectConversion(3, "III");
+    }
+
+    private void assertCorrectConversion(int arabicInteger, String romanNumeral) {
+        assertEquals(new ArabicInteger(arabicInteger).toRomanNumeral(),  romanNumeral);
     }
 }
