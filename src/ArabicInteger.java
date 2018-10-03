@@ -9,46 +9,32 @@ public class ArabicInteger {
     }
 
     public String toRomanNumeral() {
-        if(integer < 4) {
-            return appendNumeralFor1To("", integer);
-        }
-        else if(integer == 4) {
-            return NumeralFor1 + NumeralFor5;
-        }
-        else if(integer == 5) {
-            return NumeralFor5;
-        }
-        else if(integer < 9) {
-            int numberOfIsToAdd = integer - 5;
-            return appendNumeralFor1To(NumeralFor5, numberOfIsToAdd);
-        }
-        else if(integer == 9) {
-            return NumeralFor1 + NumeralFor10;
-        }
-        else if(integer == 10) {
-            return NumeralFor10;
-        }
-        else if(integer < 14) {
-            int numberOfIsToAdd = integer - 10;
-            return appendNumeralFor1To(NumeralFor10, numberOfIsToAdd);
-        }
-        else if(integer == 14) {
-            return NumeralFor10 + NumeralFor1 + NumeralFor5;
-        }
-        else if(integer < 19) {
-            int numberOfIsToAdd = integer - 15;
-            String baseNumeral = NumeralFor10 + NumeralFor5;
-            return appendNumeralFor1To(baseNumeral, numberOfIsToAdd);
-        }
-        else {
-            return NumeralFor10 + NumeralFor1 + NumeralFor10;
-        }
-    }
+        String numeralString = "";
+        int decreasingNumber = this.integer;
 
-    private String appendNumeralFor1To(String baseNumeral, int numberOfIsToAdd) {
-        for(int i = 0; i < numberOfIsToAdd; i++) {
-           baseNumeral += NumeralFor1;
-       }
-        return baseNumeral;
+        while(decreasingNumber > 0) {
+           if(decreasingNumber >= 10) {
+               decreasingNumber -= 10;
+               numeralString += NumeralFor10;
+           }
+           else if(decreasingNumber >= 9) {
+               decreasingNumber -= 9;
+               numeralString += (NumeralFor1 + NumeralFor10);
+           }
+           else if(decreasingNumber >= 5) {
+               decreasingNumber -= 5;
+               numeralString += NumeralFor5;
+           }
+           else if(decreasingNumber >= 4) {
+               decreasingNumber -= 4;
+               numeralString += NumeralFor1 + NumeralFor5;
+           }
+           else {
+               decreasingNumber -= 1;
+               numeralString += NumeralFor1;
+           }
+        }
+
+        return numeralString;
     }
 }
