@@ -29,8 +29,11 @@ public class ArabicInteger {
         else if(integer == 10) {
             return "X";
         }
-        else {
+        else if(integer == 11) {
             return "XI";
+        }
+        else {
+            return "XII";
         }
     }
 
