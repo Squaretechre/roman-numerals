@@ -7,21 +7,23 @@ public class ArabicInteger {
 
     public String toRomanNumeral() {
         if(integer < 5) {
-           String numeralIs = "";
-           for(int i=0; i < integer; i++) {
-               numeralIs += "I";
+           String numeral = "";
+            int numberOfIsToAdd = this.integer;
+            for(int i = 0; i < numberOfIsToAdd; i++) {
+               numeral += "I";
            }
-           return numeralIs;
+           return numeral;
         }
         else if(integer == 5) {
             return "V";
         }
         else if(integer > 5 && integer < 9) {
-            String numeralIs = "V";
-            for(int i=0; i < integer - 5; i++) {
-                numeralIs += "I";
+            String numeral = "V";
+            int numberOfIsToAdd = integer - 5;
+            for(int i = 0; i < numberOfIsToAdd; i++) {
+                numeral += "I";
             }
-            return numeralIs;
+            return numeral;
         }
         else {
             return "IX";
