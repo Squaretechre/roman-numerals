@@ -1,4 +1,5 @@
 public class ArabicInteger {
+    private static final String NumeralFor1 = "I";
     private final int integer;
 
     public ArabicInteger(int integer) {
@@ -26,7 +27,7 @@ public class ArabicInteger {
 
     private String appendNumeralFor1To(String baseNumeral, int numberOfIsToAdd) {
         for(int i = 0; i < numberOfIsToAdd; i++) {
-           baseNumeral += "I";
+           baseNumeral += NumeralFor1;
        }
         return baseNumeral;
     }
