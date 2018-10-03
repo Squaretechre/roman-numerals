@@ -7,10 +7,13 @@ public class ArabicInteger {
     }
 
     public String toRomanNumeral() {
-        if(integer < 5) {
+        if(integer < 4) {
            String baseNumeral = "";
             int numberOf1sToAppend = this.integer;
             return appendNumeralFor1To(baseNumeral, numberOf1sToAppend);
+        }
+        else if(integer == 4) {
+            return "IV";
         }
         else if(integer == 5) {
             return "V";

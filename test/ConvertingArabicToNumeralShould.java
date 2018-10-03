@@ -30,8 +30,8 @@ public class ConvertingArabicToNumeralShould {
     }
 
     @Test
-    public void convert_4_to_IIII() {
-        assertCorrectConversion(4, "IIII");
+    public void convert_4_to_IV() {
+        assertCorrectConversion(4, "IV");
     }
 
     @Test
