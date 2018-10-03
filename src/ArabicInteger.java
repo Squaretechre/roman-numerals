@@ -13,8 +13,11 @@ public class ArabicInteger {
            }
            return numeralIs;
         }
-        else {
+        else if(integer == 5) {
             return "V";
+        }
+        else {
+            return "VI";
         }
     }
 }
