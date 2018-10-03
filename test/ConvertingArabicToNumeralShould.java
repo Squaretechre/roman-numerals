@@ -44,6 +44,11 @@ public class ConvertingArabicToNumeralShould {
         assertCorrectConversion(6, "VI");
     }
 
+    @Test
+    public void convert_7_to_VII() {
+        assertCorrectConversion(7, "VII");
+    }
+
     private void assertCorrectConversion(int arabicInteger, String romanNumeral) {
         assertEquals(romanNumeral, new ArabicInteger(arabicInteger).toRomanNumeral());
     }

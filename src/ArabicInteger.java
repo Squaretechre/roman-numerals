@@ -16,8 +16,11 @@ public class ArabicInteger {
         else if(integer == 5) {
             return "V";
         }
-        else {
+        else if(integer == 6) {
             return "VI";
+        }
+        else {
+            return "VII";
         }
     }
 }
