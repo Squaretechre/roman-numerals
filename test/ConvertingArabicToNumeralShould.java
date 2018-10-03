@@ -199,6 +199,11 @@ public class ConvertingArabicToNumeralShould {
         assertCorrectConversion(3949, "MMMCMXLIX");
     }
 
+    @Test
+    public void convert_3999_to_MMMCMXCIX() {
+        assertCorrectConversion(3999, "MMMCMXCIX");
+    }
+
     private void assertCorrectConversion(int arabicInteger, String romanNumeral) {
         assertEquals(romanNumeral, new ArabicInteger(arabicInteger).toRomanNumeral());
     }
