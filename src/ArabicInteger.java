@@ -14,9 +14,8 @@ public class ArabicInteger {
 
         while (decreasingNumber > 0) {
             if (decreasingNumber >= 40) {
-                decreasingNumber = 0;
+                decreasingNumber -= 40;
                 numeralString += "XL";
-                continue;
             }
             if (decreasingNumber >= 10) {
                 decreasingNumber -= 10;
@@ -30,7 +29,7 @@ public class ArabicInteger {
             } else if (decreasingNumber >= 4) {
                 decreasingNumber -= 4;
                 numeralString += NumeralFor1 + NumeralFor5;
-            } else {
+            } else if (decreasingNumber >= 1) {
                 decreasingNumber -= 1;
                 numeralString += NumeralFor1;
             }

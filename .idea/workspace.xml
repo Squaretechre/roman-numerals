@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="adb1c756-edcc-4f5d-ac9c-37c4cfa7a727" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/ArabicInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArabicInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +20,7 @@
       <file leaf-file-name="ConvertingArabicToNumeralShould.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
+            <state relative-caret-position="478">
               <caret line="118" selection-start-line="118" selection-end-line="118" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,8 +73,8 @@
       <file leaf-file-name="ArabicInteger.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ArabicInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="572">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#280#281#0" expanded="true" />
                 <element signature="e#318#319#0" expanded="true" />
@@ -220,6 +219,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="ConvertingArabicToNumeralShould.convert_40_to_XL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanNumerals" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConvertingArabicToNumeralShould" />
+      <option name="METHOD_NAME" value="convert_40_to_XL" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -261,9 +277,11 @@
     <list>
       <item itemvalue="JUnit.All tests" />
       <item itemvalue="JUnit.ConvertingArabicToNumeralShould.convert_11_to_XI" />
+      <item itemvalue="JUnit.ConvertingArabicToNumeralShould.convert_40_to_XL" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConvertingArabicToNumeralShould.convert_40_to_XL" />
         <item itemvalue="JUnit.ConvertingArabicToNumeralShould.convert_11_to_XI" />
       </list>
     </recent_temporary>
@@ -282,35 +300,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_tests - 2018.10.03 at 21h 38m 07s.xml">
+    <history-entry file="All_tests - 2018.10.03 at 21h 49m 37s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 21h 38m 40s.xml">
+    <history-entry file="All_tests - 2018.10.03 at 21h 51m 24s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 21h 40m 02s.xml">
+    <history-entry file="All_tests - 2018.10.03 at 21h 51m 54s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 21h 40m 19s.xml">
+    <history-entry file="All_tests - 2018.10.03 at 21h 53m 02s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 21h 40m 26s.xml">
+    <history-entry file="All_tests - 2018.10.03 at 21h 53m 17s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 21h 40m 42s.xml">
+    <history-entry file="All_tests - 2018.10.03 at 21h 53m 41s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 21h 40m 56s.xml">
+    <history-entry file="All_tests - 2018.10.03 at 21h 53m 58s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 21h 41m 19s.xml">
+    <history-entry file="All_tests - 2018.10.03 at 21h 54m 20s.xml">
       <configuration name="All tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 21h 41m 37s.xml">
-      <configuration name="All tests" configurationId="JUnit" />
+    <history-entry file="ConvertingArabicToNumeralShould_convert_40_to_XL - 2018.10.03 at 21h 54m 37s.xml">
+      <configuration name="ConvertingArabicToNumeralShould.convert_40_to_XL" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_tests - 2018.10.03 at 21h 42m 00s.xml">
-      <configuration name="All tests" configurationId="JUnit" />
+    <history-entry file="ConvertingArabicToNumeralShould_convert_40_to_XL - 2018.10.03 at 21h 54m 54s.xml">
+      <configuration name="ConvertingArabicToNumeralShould.convert_40_to_XL" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -325,7 +343,7 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -351,7 +369,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/ConvertingArabicToNumeralShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
+        <state relative-caret-position="478">
           <caret line="118" selection-start-line="118" selection-end-line="118" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -402,8 +420,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArabicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="572">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#280#281#0" expanded="true" />
             <element signature="e#318#319#0" expanded="true" />
@@ -428,7 +446,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
